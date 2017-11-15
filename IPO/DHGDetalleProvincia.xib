@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DHGDetalleProvincia">
+            <connections>
+                <outlet property="diputados_provincia" destination="f0H-tr-2aX" id="xG7-mx-CHD"/>
+                <outlet property="generales2008" destination="njI-Jj-k0A" id="U9o-RU-i2T"/>
+                <outlet property="generales_2004" destination="KTE-Gf-fXm" id="Wd7-o5-Ynp"/>
+                <outlet property="generales_2011" destination="X1q-Fs-mq3" id="OWv-7d-t4w"/>
+                <outlet property="habitantes_provincia" destination="fbQ-F2-tNo" id="Ohn-87-lXN"/>
+                <outlet property="nombre_provincia" destination="EIK-oC-pEi" id="CmL-sE-Eu4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre Provincia:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eac-U0-959">
+                    <rect key="frame" x="34" y="36" width="142" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xrg-CB-IEd">
+                    <rect key="frame" x="84" y="79" width="295" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Provincia:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i4f-Is-um3">
+                    <rect key="frame" x="49" y="76" width="76" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EIK-oC-pEi">
+                    <rect key="frame" x="49" y="105" width="214" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fbQ-F2-tNo">
+                    <rect key="frame" x="49" y="184" width="214" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Habitantes:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0w-oe-omr">
+                    <rect key="frame" x="49" y="155" width="88" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f0H-tr-2aX">
+                    <rect key="frame" x="49" y="251" width="214" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Numero Diputados:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hpg-yi-OBk">
+                    <rect key="frame" x="49" y="222" width="150" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ver resultados elecciones" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oYi-wD-Ysj">
+                    <rect key="frame" x="421" y="76" width="196" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e5C-wk-wfc">
+                    <rect key="frame" x="492" y="131" width="30" height="30"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njI-Jj-k0A">
+                    <rect key="frame" x="421" y="183" width="196" height="30"/>
+                    <color key="backgroundColor" red="0.96484057329999995" green="0.9800862669" blue="0.9990131579" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="tintColor" red="0.96484057329999995" green="0.9800862669" blue="0.9990131579" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="GENERALES           2008">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" red="0.02576394379" green="0.0" blue="0.64980468749999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="mostrar_resultados:" destination="-1" eventType="touchUpInside" id="2AG-PY-Gor"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X1q-Fs-mq3">
+                    <rect key="frame" x="421" y="113" width="196" height="30"/>
+                    <color key="backgroundColor" red="0.96484057329999995" green="0.9800862669" blue="0.9990131579" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="tintColor" red="0.96484057329999995" green="0.9800862669" blue="0.9990131579" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="GENERALES           2011">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" red="0.02576394379" green="0.0" blue="0.64980468749999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="mostrar_resultados:" destination="-1" eventType="touchUpInside" id="8xS-6J-qEQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTE-Gf-fXm">
+                    <rect key="frame" x="421" y="251" width="196" height="30"/>
+                    <color key="backgroundColor" red="0.96484057329999995" green="0.9800862669" blue="0.9990131579" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="tintColor" red="0.96484057329999995" green="0.9800862669" blue="0.9990131579" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="GENERALES           2004">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" red="0.02576394379" green="0.0" blue="0.64980468749999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="mostrar_resultados:" destination="-1" eventType="touchUpInside" id="aVS-CS-kO2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lS4-ga-qIZ">
+                    <rect key="frame" x="404" y="203" width="196" height="30"/>
+                    <color key="backgroundColor" red="0.96484057329999995" green="0.9800862669" blue="0.9990131579" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="tintColor" red="0.96484057329999995" green="0.9800862669" blue="0.9990131579" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="AUTONOMICAS      2007">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" red="0.02576394379" green="0.0" blue="0.64980468749999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SO7-xq-KvS">
+                    <rect key="frame" x="404" y="116" width="196" height="30"/>
+                    <color key="backgroundColor" red="0.96484057329999995" green="0.9800862669" blue="0.9990131579" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="tintColor" red="0.96484057329999995" green="0.9800862669" blue="0.9990131579" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="AUTONOMICAS      2011">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" red="0.02576394379" green="0.0" blue="0.64980468749999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSw-Dn-SHW">
+                    <rect key="frame" x="404" y="292" width="196" height="30"/>
+                    <color key="backgroundColor" red="0.96484057329999995" green="0.9800862669" blue="0.9990131579" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="tintColor" red="0.96484057329999995" green="0.9800862669" blue="0.9990131579" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="AUTONOMICAS      2003">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" red="0.02576394379" green="0.0" blue="0.64980468749999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5o6-rI-l4x">
+                    <rect key="frame" x="422" y="72" width="161" height="22"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" red="0.028267260240000001" green="0.0" blue="0.71294202299999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="GENERALES 2011"/>
+                    <state key="highlighted">
+                        <color key="titleColor" red="0.02826726023656731" green="0.0" blue="0.71294202302631571" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" red="0.02576394379" green="0.0" blue="0.64980468749999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.74997299260000005" green="0.9087003293" blue="0.99913194439999997" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="Eac-U0-959"/>
+                    <exclude reference="xrg-CB-IEd"/>
+                    <exclude reference="lS4-ga-qIZ"/>
+                    <exclude reference="SO7-xq-KvS"/>
+                    <exclude reference="SSw-Dn-SHW"/>
+                    <exclude reference="5o6-rI-l4x"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="270.5" y="366.5"/>
+        </view>
+    </objects>
+</document>

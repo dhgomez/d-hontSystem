@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DHGSistemaDHondtViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NpX-l8-X58">
+                    <rect key="frame" x="85" y="93" width="496" height="107"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">El sistema D'Hondt es una fórmula electoral, creada por Victor d'Hondt, que permite obtener el número de cargos electos asignados a las candidaturas, en proporción a los votos conseguidos 
+
+Tras escrutar todos los votos, se calcula una serie de divisores para cada lista. La fórmula de los divisores es V/N, donde V representa el número total de votos recibidos por la lista, y N representa cada uno de los números enteros desde 1 hasta el número de cargos electos de la circunscripción objeto de escrutinio.
+
+El Congreso se compone de 350 diputados que representan a 52 circunscripciones. El reparto de diputados por circunscripción se hace según la Ley Orgánica del Régimen Electoral General (LOREG).
+
+Según esta norma, Ceuta y Melilla disponen de un diputado cada una, mientras que el resto de circunscripciones -provincias- tienen asignados dos diputados como mínimo y el resto se reparten según la población empadronada.
+
+ Esto hace que Madrid y Barcelona sean las circunscripciones con más diputados, 36 y 31, respectivamente, y Soria la provincia con menos, los dos mínimos.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FORMULA: " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5LA-5M-mNy">
+                    <rect key="frame" x="85" y="228" width="76" height="21"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="formula.png" translatesAutoresizingMaskIntoConstraints="NO" id="qiT-lk-frY">
+                    <rect key="frame" x="192" y="208" width="389" height="62"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMf-u4-I9G">
+                    <rect key="frame" x="85" y="278" width="496" height="69"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <string key="text">donde:
+
+n: es el número total de partidos.
+v: es el porcentaje de voto del partido i-ésimo.
+s_i: es el porcentaje escaños partido i-ésimo.
+v_w: el umbral de votos con los cuales un partido obtendría todos los votos de una circunscripción.
+v_r : el umbral de votos mínimo a partir del cual un partido obtiene escaño en una circunscripción.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" minimumFontSize="28" translatesAutoresizingMaskIntoConstraints="NO" id="21I-Wy-YQZ">
+                    <rect key="frame" x="192" y="45" width="282" height="40"/>
+                    <attributedString key="attributedText">
+                        <fragment content="SISTEMA D'HONDT">
+                            <attributes>
+                                <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="31" name="GillSansMT-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="0.74997299260000005" green="0.9087003293" blue="0.99913194439999997" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="352.5" y="354.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="formula.png" width="822" height="148"/>
+    </resources>
+</document>
